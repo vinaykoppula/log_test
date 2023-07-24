@@ -1,5 +1,7 @@
 package dao;
 
+import java.util.List;
+
 import entity.User;
 
 public interface UserRepository {
@@ -12,5 +14,11 @@ public interface UserRepository {
 	void create(User user);
 	User get1(Long id);
 	User read(Long id);
+	User save(User user);
+	static boolean existsById(Object id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	List<User> findAll();
 
 }

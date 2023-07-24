@@ -1,5 +1,6 @@
 package dao;
 
+import entity.TodoItem;
 import entity.User;
 
 public interface TodoRepository {
@@ -10,5 +11,13 @@ public interface TodoRepository {
     static void remove(User user) {
 		// TODO Auto-generated method stub
 		
+	}
+	static boolean existsById(Object id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	static TodoItem save() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

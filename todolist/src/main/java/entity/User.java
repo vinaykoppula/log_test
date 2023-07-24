@@ -11,4 +11,8 @@ public class User {
     private String userName;
     private String firstName;
     private String email;
+	public static Object getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
