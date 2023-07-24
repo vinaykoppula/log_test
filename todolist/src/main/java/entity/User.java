@@ -7,8 +7,8 @@ import jakarta.persistence.Id;
 public class User {
 
 	@Id
-	private Integer id;
-	private String fName;
-	private String lName;
-	
+	private Long id;
+    private String userName;
+    private String firstName;
+    private String email;
 }
